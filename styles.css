@@ -1,0 +1,36 @@
+nav, ul, header {list-style-type: none; margin: 10px; padding:5px; background-color: orange; list-style-image: url(audio_image.jpg);}
+/* Can't get list-style-image to work as intended */
+nav li {display: inline; margin-right: 20px; color:lightblue}
+a {text-decoration: none; font-family: "Helvetica", sans-serif; font-size: 18px;}
+a:hover {color:lightgreen; font-weight: 800;}
+/* Hover effect changes color of anchor tag text and adds bolded weighting to it  */
+/* 1.2 Eye-Catching Gallery */
+figure {margin: 10px; border: 2px, black, solid; padding:5px; display: flex}
+figcaption{color: maroon;}
+img:hover{border: 4px, gold, solid}
+/* Hover effect bordr to catch the attention of users */
+
+/* 1.3 Dynamic Call to Action Buttons */
+button {border-radius: 7%;}
+button:hover {background-color: coral; font-weight: 800; box-shadow: 2px 2px grey;}
+button:active{background-color: lime; box-shadow: 2px 2px grey;}
+/* Changes background color when hovered over and clicked, as well as adjusting font bolding and creating shadow, adding more interactivity */
+
+/* 1.4 Interactive form for user feedback */
+textarea {width:300px; border-radius: 4px; height:200px}
+textarea:hover{background-color: rgb(247, 218, 207);}
+input[type=text] {width:100%; margin: 5px; padding: 5px}
+input[type=text]:hover{background-color: rgb(247, 218, 207);}
+input[type=email] {width:100%; margin: 5px; padding: 5px}
+input[type=email]:hover{background-color: rgb(247, 218, 207);}
+input[type=range] {width:75%; margin: 5px; padding: 5px; cursor: pointer;}
+label {font-family:"Arial", sans-serif; margin:5px; padding:5px;}
+div {font-family: "Arial", sans-serif;}
+input[type=submit] {border-radius: 7%;}
+input[type=submit]:hover {background-color: coral; font-weight: 800; box-shadow: 2px 2px grey;}
+input[type=submit]:active{background-color: lime; box-shadow: 2px 2px grey;}
+input[type=reset] {border-radius: 7%;}
+input[type=reset]:hover {background-color: coral; font-weight: 800; box-shadow: 2px 2px grey;}
+input[type=reset]:active{background-color: lime; box-shadow: 2px 2px grey;}
+fieldset {width: 100%; border: 2px black dotted; border-radius: 3px; font-family:"Arial", sans-serif; padding:5px; margin: 5px}
+/* Uses CSS to better position and present our User feedback form. Also Creates hover effects for all of the fields in the form */
